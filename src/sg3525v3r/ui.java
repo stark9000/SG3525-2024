@@ -475,7 +475,6 @@ public class ui extends javax.swing.JFrame {
             hzf.setText(formatResult(OFC.calculateFrequency(CT_value, (RT_value + P_value), RD_value)) + " - Hz");
             khzf.setText(formatResult(OFC.calculateFrequencyInKHz(CT_value, (RT_value + P_value), RD_value)) + " - Khz");
         } else {
-
             hz.setText(String.valueOf(OFC.calculateFrequency(CT_value, RT_value, RD_value) + " - Hz"));
             khz.setText(String.valueOf(OFC.calculateFrequencyInKHz(CT_value, RT_value, RD_value) + " - Khz"));
             hzf.setText(formatResult(OFC.calculateFrequency(CT_value, RT_value, RD_value)) + " - Hz");
